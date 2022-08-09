@@ -14,9 +14,8 @@ Run the program:
 
 `node .`
 
-or
-
-`npm run dev` if you install nodemon.
+or `npm run dev` if you install `nodemon`.
 
 Api request format is in `request_format`
+
 The database is in `usflix.sql`
