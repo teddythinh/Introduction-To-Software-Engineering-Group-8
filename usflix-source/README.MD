@@ -1,15 +1,22 @@
-# usflix_backend
+# Movie streaming website
 
-Before run:
+Before run, you need to run the following command:
 
-`npm install express`
+```bash
 
-`npm install mssql`
+npm install express
 
-change server config in `/configs/dbconfig.json`
+npm install mssql
+
+This is optional: npm install --save-dev nodemon
+```
+
+Change the server config in: `/configs/dbconfig.json`
 
 Run the program:
 `node .`
+or
+`npm run dev` if you install nodemon.
 
-api request format is in `request_format`,
-test databse is in `usflix.sql`
+Api request format is in `request_format`
+The database is in `usflix.sql`
