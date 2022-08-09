@@ -10,7 +10,9 @@ This is optional: `npm install --save-dev nodemon`
 
 ### Run the program by the command:
 
-`node .` or `npm run dev` if you install `nodemon` 
+`node .` 
+
+or `npm run dev` if you install `nodemon` 
 
 and open your browser at `http://localhost:3000/`.
 
