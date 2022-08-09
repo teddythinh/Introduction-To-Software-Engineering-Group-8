@@ -8,11 +8,11 @@
 
 This is optional: `npm install --save-dev nodemon`
 
-### Run the program:
+### Run the program by the command:
 
-`node .`
+`node .` or `npm run dev` if you install `nodemon` 
 
-or `npm run dev` if you install `nodemon`.
+and open your browser at `http://localhost:3000/`.
 
 ### Change the server config in: `/configs/dbconfig.json`
 
