@@ -16,4 +16,4 @@ app.use('/api/users', usersRoute)
 app.use('/api/movies', moviesRoute)
 app.use('/api/genres', genresRoute)
 
-app.listen(PORT, () => console.log('http://localhost:' + PORT, 'test server'));
+app.listen(PORT, () => console.log(`Server started on port ${PORT} and running on http://localhost:${PORT}`));
